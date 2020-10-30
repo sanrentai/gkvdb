@@ -1,4 +1,6 @@
 # gkvdb
+fork from https://github.com/johng-cn/gkvdb
+修改包名，依赖 github.com/gogf/gf v1.14.2
 Go语言开发的基于[DRH(Deep-Re-Hash)深度哈希分区算法](http://johng.cn/brief-to-deep-re-hash-algorithm/)的高性能高可用Key-Value嵌入式事务数据库。
 gkvdb是开源的，免费的，基于MIT协议进行分发，开源项目地址(gitee与github仓库保持实时同步)：
 **Gitee**( https://gitee.com/johng/gkvdb )，**Github**( https://github.com/johng-cn/gkvdb )。
@@ -38,7 +40,7 @@ go get -u gitee.com/johng/gkvdb
 ## 使用
 #### 1、基本用法
 ```go
-import "gitee.com/johng/gkvdb/gkvdb"
+import "github.com/sanrentai/gkvdb/gkvdb"
 
 // 创建数据库，指定数据库存放目录
 // gkvdb支持多表，默认数据表名称为default

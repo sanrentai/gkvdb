@@ -1,3 +1,8 @@
-module gitee.com/johng/gkvdb
+module github.com/sanrentai/gkvdb
 
-require github.com/gogf/gf latest
+go 1.14
+
+require (
+	github.com/gogf/gf v1.14.2
+	github.com/sanrentai/snowflake v1.0.2
+)
